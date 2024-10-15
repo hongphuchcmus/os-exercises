@@ -14,7 +14,7 @@ Lập lịch chiếm quyền ngắt các tiến trình và phân phối lại t�
 |P3|1.0|1|
 
 Turnaround time := Thời gian chờ trong 
-*ready queue* + Thời gian thực thi
+*ready queue* + Thời gian thực thi := (Thời điểm bắt đầu thực thi - Thời gian đến)  + Thời gian thực thi
 
 a. Biểu đồ Grantt cho lập lịch  
 
@@ -22,11 +22,12 @@ a. Biểu đồ Grantt cho lập lịch
 |-:|-:|-:|
 |8|12|13|
 
-Turnaround time cho P1: 0 + 8 = 8  
-Turnaround time cho P2: (8 - 0.4) + 4 = 11.6  
-Turnaround time cho P1: (12 - 1) + 1 = 12  
+Turnaround time:
+P1: 0 + 8 = 8  
+P2: (8 - 0.4) + 4 = 11.6  
+P3: (12 - 1) + 1 = 12  
 
-Turnaround time trung bình: (8 + 11.6 + 12) /3 = 10.53
+Avg turnaround time: (8 + 11.6 + 12) /3 = 10.53
 
 ---
 b. Biểu đồ Grantt cho lập lịch  
@@ -35,11 +36,12 @@ b. Biểu đồ Grantt cho lập lịch
 |-:|-:|-:|
 |8|9|13|
 
-Turnaround time cho P1: 0 + 8 = 8  
-Turnaround time cho P3: (8 - 1) + 1 = 8
-Turnaround time cho P2: (9 - 0.4) + 4 = 12.6  
+Turnaround time:
+P1: 0 + 8 = 8  
+P3: (8 - 1) + 1 = 8
+P2: (9 - 0.4) + 4 = 12.6  
 
-Turnaround time trung bình: (8 + 8 + 12.6) /3 = 9.53
+Avg turnaround time: (8 + 8 + 12.6) /3 = 9.53
 
 ---
 c. Biểu đồ Grantt cho lập lịch  
@@ -48,11 +50,12 @@ c. Biểu đồ Grantt cho lập lịch
 |-:|-:|-:|-:|
 |1|2|6|14|
 
-Turnaround time cho P3: (1 - 1) + 1 = 1  
-Turnaround time cho P2: (2 - 0.4) + 4 = 5.6  
-Turnaround time cho P1: 6 + 8 = 14  
+Turnaround time:
+P3: (1 - 1) + 1 = 1  
+P2: (2 - 0.4) + 4 = 5.6  
+P1: 6 + 8 = 14  
 
-Turnaround time trung bình: (1 + 5.6 + 14) /3 = 6.87
+Avg turnaround time: (1 + 5.6 + 14) /3 = 6.87
 
 ## 5.5
 
