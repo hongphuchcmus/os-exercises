@@ -145,16 +145,16 @@ Avg turnaround time:7.6
 Waiting time:
 P3: 0  
 P2: 1  
-P5: 4  
+P4: 4  
 P1: 8  
-P4: 13  
+P5: 13  
 Avg waiting time: 5.2  
 Turnaround time:  
 P3: 1  
 P2: 4  
-P5: 8  
+P4: 8  
 P1: 13  
-P4: 20  
+P5: 20  
 Avg turnaround time: 9.2
 
 
@@ -165,18 +165,18 @@ Avg turnaround time: 9.2
 |5|9|10|17|20|
 
 Waiting time:
-P3: 0  
-P2: 5  
-P5: 9  
-P1: 10  
-P4: 17  
+P1: 0  
+P5: 5  
+P3: 9  
+P4: 10  
+P2: 17  
 Avg waiting time: 8.2  
 Turnaround time:  
-P3: 5  
-P2: 9  
-P5: 10  
-P1: 17  
-P4: 20  
+P1: 5  
+P5: 9  
+P3: 10  
+P4: 17  
+P2: 20  
 Avg turnaround time: 12.2  
 
 ### RR
@@ -216,20 +216,20 @@ Biểu đồ Grantt cho lập lịch:
 
 |P1|P2|P3|P4|P3|P5|P4|P6|P3|P4|P2|
 |-:|-:|-:|-:|-:|-:|-:|-:|-:|-:|-:|
-|15|20|30|40|45|50|55|70|75|85|95|
+|15|20|30|40|45|50|55|70|75|80|95|
 
 Waiting time:  
 P1: 15 - 0 - 15 = 0  
 P2: 95 - 0 - 20 = 75  
 P3: 75 - 20 - 20 = 35  
-P4: 85 - 25 - 20 = 30  
+P4: 80 - 25 - 20 = 35  
 P5: 50 - 45 - 5 = 0  
 P6: 70 - 55 - 15 = 0  
 Turnaround time:  
 P1: 15 - 0 = 15  
 P2: 95 - 0 = 95  
 P3: 75 - 20 = 55  
-P4: 85 - 25 = 50  
+P4: 80 - 25 = 55  
 P5: 50 - 45= 5
 P6: 70 - 55 = 15
 
